@@ -1,0 +1,16 @@
+{
+  "server": {
+    "baseUrl": "http://localhost:3003",
+    "port": "3003"
+  },
+  "ui": {
+    "baseUrl": "http://localhost:3002"
+  },
+  "db": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "pass": "",
+    "name": "giftss",
+    "port": "3306"
+  }
+}

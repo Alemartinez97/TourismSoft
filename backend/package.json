@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "ale": "NODE_ENV=ale node app.js --env ale",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "bluebird": "^3.7.1",
+    "cloudinary": "^1.21.0",
+    "config": "^3.2.3",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csv-parse": "^4.8.2",
+    "datauri": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.5",
+    "mercadopago": "^1.2.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "svg2img": "^0.6.1"
+  }
+}
